@@ -1,0 +1,195 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  color: aliceblue;
+}
+
+body {
+  background-color: #1b0322;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  background-color: rgba(240, 248, 255, 0);
+  margin-top: 2%;
+  width: 100%;
+}
+
+#heading {
+  font-size: 22px;
+  color: aliceblue;
+  text-transform: capitalize;
+  margin-left: 4%;
+}
+
+.lio {
+  color: #fc99db;
+}
+
+#menu {
+  background-color: rgba(212, 212, 212, 0);
+  font-size: 22px;
+}
+
+ul {
+  background-color: rgba(212, 212, 212, 0);
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  background-color: rgba(0, 0, 0, 0);
+  text-decoration: none;
+  color: aliceblue;
+}
+
+a :hover {
+  color: #fc99db;
+}
+
+li {
+  background-color: rgba(0, 0, 0, 0.027);
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+}
+main {
+    color: aliceblue;
+    display: flex;
+    margin-top: 6%;
+  }
+#services {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 3%;
+    padding: 10px 0%;
+    background-color: #1b0322;
+  }
+  .tle {
+    font-size: 2em;
+    align-items: center;
+    margin-left: 0%;
+    font-size: 45px;
+  }
+  
+  #column {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 2%;
+  }
+  #column2 {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 6%;
+  }
+  
+  #card {
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+    color: #fff;
+    font-size: 22px;
+  }
+  .card_1 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  
+  #card:hover {
+    transform: translateY(-10px);
+    transition: 1s;
+    box-shadow: 0 0 15px 5px #fc99db, 0 0 25px 10px purple;
+  }
+  #card:active {
+    color: #fc99db;
+  }
+  #card h5 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  i {
+    font-size: 70px;
+    color: #fc99db;
+  }
+  .button-33 {
+    width: 12%;
+    margin-top: 5%;
+    margin-left: 43%;
+    background-color:#f869c8;
+    border-radius: 100px;
+    cursor: pointer;
+    padding: 7px 2px;
+    text-align: center;
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 500;
+  }
+  
+  .button-33:hover {
+      background-color: #1b0322;
+    box-shadow: 0 0 15px 5px #fc99db, 0 0 20px 10px purple;
+  }
+
+  /* ----------------- project section-------------------------------*/
+.project_container
+{
+  margin-top: 4%;
+  margin-left:20%;
+  width: 60%;
+}
+.section-title
+{
+  margin: 4%;
+  margin-left: 38%;
+  font-size: 50px;
+  width: 50%;
+}
+.content
+{
+  display: flex;
+}
+.project1{
+  width: 50%;
+}
+.project1:hover
+{
+  transform: translateY(-10px);
+  box-shadow: 0 0 15px 5px #80727bab, 0 0 25px 10px purple; 
+}
+.content p{
+  font-size: 20px;
+  background-color:  #fa3aba5e;
+  padding: 19px;
+  padding-top:5%;
+  line-height: 140%;
+  /* text-align: center; */
+}
+.p{
+  font-size: 40px;
+  font: weight 35px;
+  margin-bottom: 3%
+}
+
+/* ------------------end of porject section------------------------------ */
+
+#footer {
+  margin-top: 07%;
+  background-color: #0f0f0f;
+  font-size: 20px;
+  text-align: center;
+}
+.foot {
+  margin-top: 3%;
+}
