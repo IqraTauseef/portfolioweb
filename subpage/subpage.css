@@ -12,7 +12,7 @@
 body {
   background-color: #1b0322;
 }
-
+/*----------------------navbar start-------------------------------------  */
 header {
   display: flex;
   width: 100%;
@@ -61,11 +61,14 @@ li {
   align-items: center;
   padding: 32px;
 }
+
+/* --------------------------------------main section */
 main {
     color: aliceblue;
     display: flex;
     margin-top: 6%;
   }
+/* ----------------------------services section subpage----------------------------  */
 #services {
     width: 90%;
     margin-left: 5%;
